@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "force",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"meow.sol": "Reentrancy"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"meow.sol": {
+			"keccak256": "0x1a8963f2de3b5ebfe23b55bb8165bda0a5bb497b4ab956e8f7c7e59695b87af0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d6a9bc823992e35b8af990f0c860fd6a97a3acd41fe0ecdb30e015b4c69be747",
+				"dweb:/ipfs/QmP4eBsKCbTcZkGvHsYrCtJChcXCVTiYdp164RWRQZr671"
+			]
+		}
+	},
+	"version": 1
+}

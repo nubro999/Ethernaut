@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "sendmoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"King.sol": "Noreceive"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"King.sol": {
+			"keccak256": "0xa580855367442d482fe84c85d34fe4226df3357ae6b0a31adffa41a4820e64d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1bd81c62c68595b248260ddb4fd67fd1ddc02cb15bc241d1715ced52a20a1901",
+				"dweb:/ipfs/QmVQL1D8GYBR2X8KS24DiWBzrax5ri377fT5P8Bd5eadt9"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "setFirstTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Preservation.sol": "Itarget"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Preservation.sol": {
+			"keccak256": "0xd5527b35912509978dc77eedeea5b3dc4b703e7dcaa04471865f1d52a0003496",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1340beca85aa36cecac4f4a9b46f8aea040d0556a09b21ec92a979e8c6c2a596",
+				"dweb:/ipfs/Qmc1qJR49ctJB4jqkDBfLzYh1UBmJUQtTVKSW4VJhbUbNv"
+			]
+		}
+	},
+	"version": 1
+}

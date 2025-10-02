@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"throughgate.sol": "Ienter"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"throughgate.sol": {
+			"keccak256": "0x2815278dac1f49c240dd179b8adf8831351860c548e2d626dbfdabac02b3ad4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://732c07c85f524f499c173aadf3d3ad34c7042c82d6bad2fa26945d79d8d1d5d8",
+				"dweb:/ipfs/QmWGzws1MqA91bhpEkA1rG4dPtLLZZ9Tmjp5eTthQDiQc6"
+			]
+		}
+	},
+	"version": 1
+}
