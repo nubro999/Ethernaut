@@ -6,8 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_partner",
+						"type": "address"
+					}
+				],
+				"name": "setWithdrawPartner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -23,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"denial.sol": "Attack"
+			"denial.sol": "IDenial"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
