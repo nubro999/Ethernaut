@@ -6,38 +6,33 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_alien",
-						"type": "address"
-					}
-				],
+				"inputs": [],
+				"name": "makeContact",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "alien",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "retract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "desiredOwner",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_content",
+						"type": "bytes32"
 					}
 				],
-				"name": "attack",
+				"name": "revise",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -56,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AlienCodex.sol": "Attack"
+			"AlienCodex.sol": "AlienCodex"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

@@ -1,0 +1,4 @@
+jsfiles/.env
+jsfiles/node_modules
+jsfiles/package-lock.json
+jsfiles/package.json
